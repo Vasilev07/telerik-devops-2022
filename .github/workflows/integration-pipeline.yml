@@ -11,7 +11,6 @@ on: [ push ]
 #   branches: [main, release/**]
 
 jobs:
-    # Code
     editorconfig-check:
         name: .editorconfig lint
         runs-on: ubuntu-latest
